@@ -2345,7 +2345,7 @@
 			}
 
 		.icon.style1 {
-			color: #efa8b0;
+			color: #42aaf4;
 		}
 
 		.icon.style2 {
@@ -2353,7 +2353,7 @@
 		}
 
 		.icon.style3 {
-			color: #a89cc8;
+			color: #CC0000;
 		}
 
 		.icon.style4 {
@@ -2361,7 +2361,7 @@
 		}
 
 		.icon.style5 {
-			color: #8cc9f0;
+			color: #000000;
 		}
 
 		@media screen and (max-width: 1680px) {
