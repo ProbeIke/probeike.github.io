@@ -52,6 +52,9 @@
 		border-radius: 50%;
 		max-width: 100%;
 		width: 100%;
+		display: inline-block;
+		position: relative;
+		overflow: hidden;
 	}
 
 /* Box Model */
