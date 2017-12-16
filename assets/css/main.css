@@ -50,8 +50,8 @@
 	
 	.circular {
 		border-radius: 50%;
-		max-width: 90%;
-		width: 90%;
+		max-width: 100%;
+		width: 100%;
 		magin: auto;
 		position: relative;
 		overflow: hidden;
