@@ -1,181 +1,50 @@
 @import 'libs/vars';
 @import 'libs/functions';
 @import 'libs/mixins';
+@import 'libs/skel';
 
 /*
-	Helios by HTML5 UP
+	Forty by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-/* Basic */
-
-	a {
-		border-bottom: solid 1px #ddd;
-	}
-
-	hr {
-		border-top: solid 1px #777;
-		border-bottom: solid 1px #777;
-	}
-
-	.timestamp {
-		color: #777;
-	}
-
-/* Section/Article */
-
-	section, article {
-		> .last-child, &.last-child {
-			margin-bottom: 0;
-		}
-	}
-
-/* List */
-
-	ul {
-		&.divided {
-			li {
-				border-top: solid 1px #777;
-			}
-		}
-		&.menu {
-			li {
-				border-left: solid 1px #777;
-			}
-		}
-
-		&.icons {
-			background: #333;
-			-ms-behavior: url('assets/js/ie/PIE.htc');
-		}
-	}
-
 /* Button */
 
 	.button {
-		-ms-behavior: url('assets/js/ie/PIE.htc');
-	}
+		border: solid 2px !important;
 
-/* Icons */
+		&.next {
+			padding-right: 1.75em;
 
-	.icon.circled {
-		-ms-behavior: url('assets/js/ie/PIE.htc');
-	}
-
-/* Header */
-
-	#header {
-		-ms-behavior: url('assets/js/ie/backgroundsize.min.htc');
-	}
-
-	body.homepage {
-		#header {
-			height: auto;
-			min-height: 0;
-			padding: 12em 0 12em 0;
-
-			&:after {
-				display: none;
-			}
-		}
-	}
-
-/* Nav */
-
-	#nav {
-		> ul {
 			&:before, &:after {
-				border-top: solid 1px #777;
-				border-bottom: solid 1px #777;
-			}
-
-			> li {
-				-ms-behavior: url('assets/js/ie/PIE.htc');
-
-				&.active {
-					border-color: #999;
-				}
-			}
-		}
-	}
-
-	.dropotron {
-		background: #fff;
-		-ms-behavior: url('assets/js/ie/PIE.htc');
-
-		li {
-			border-color: #eee;
-			padding-right: 1em;
-			color: #5b5b5b;
-		}
-
-		&.level-0 {
-			box-shadow: none !important;
-			margin-top: 1em;
-		}
-	}
-
-/* Carousel */
-
-	.carousel {
-		.forward, .backward {
-			border-radius: 100%;
-			background-color: #483949;
-			width: 7em;
-			height: 7em;
-			margin-top: -3.5em;
-			border-radius: 100%;
-			-ms-behavior: url('assets/js/ie/PIE.htc');
-
-			&:before {
 				display: none;
 			}
 		}
+	}
 
-		.forward {
-			right: -3.5em;
-		}
+/* Tiles */
 
-		.backward {
-			left: -3.5em;
+	.tiles {
+		article {
+			width: 50%;
+			-ms-behavior: url('assets/js/ie/backgroundsize.min.htc');
+			background-size: cover;
 		}
 	}
 
-/* Footer */
+/* Banner */
 
-	#footer {
-		ul {
-			&.divided {
-				li {
-					border-color: #3B373C;
-				}
-			}
+	#banner {
+		-ms-behavior: url('assets/js/ie/backgroundsize.min.htc');
 
-			&.menu {
-				li {
-					border-color: #3B373C;
-				}
-			}
+		&:after {
+			display: none;
 		}
+	}
 
-		hr {
-			border-color: #3B373C;
-		}
+/* Menu */
 
-		.icons {
-			background: #2F2930;
-		}
-
-		.copyright {
-			color: #777;
-			a {
-				color: #aaa;
-				border: 0;
-
-				&:hover {
-					color: #ccc;
-				}
-			}
-		}
+	#menu {
+		background: _palette(bg);
 	}
