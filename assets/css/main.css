@@ -59,7 +59,7 @@
 		max-width: 100%;
 		margin: auto;
 		position: relative;
-		overflow: hidden;
+		overflow: auto;
 	}
 	
 /* Box Model */
@@ -3526,7 +3526,7 @@
 
 		#banner.major {
 			height: 75vh;
-			min-height: 30em;
+			min-height: 45em;
 			max-height: 50em;
 		}
 
