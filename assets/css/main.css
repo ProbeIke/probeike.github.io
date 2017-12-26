@@ -59,7 +59,7 @@
 		max-width: 100%;
 		margin: auto;
 		position: relative;
-		overflow: auto;
+		overflow: hidden;
 	}
 	
 /* Box Model */
