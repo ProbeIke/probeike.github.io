@@ -3320,7 +3320,7 @@
 			}
 
 			#header.alt.style6 .logo strong {
-				color: #87c5a4;
+				color: #aa5abc;
 			}
 
 		body.is-loading #header.alt {
@@ -3459,7 +3459,7 @@
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 0.5;
+			opacity: 0.35;
 			position: absolute;
 			top: 0;
 			width: 100%;
@@ -3555,7 +3555,7 @@
 		}
 
 		#banner.style6:after {
-			background-color: #87c5a4;
+			background-color: #aa5abc;
 		}
 
 		body.is-loading #banner:after {
